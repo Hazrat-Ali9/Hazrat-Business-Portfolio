@@ -8,3 +8,5 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
 });
+
+// vite config
