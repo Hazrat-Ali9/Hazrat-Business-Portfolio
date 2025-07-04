@@ -32,7 +32,7 @@ export const ChatbotInput: React.FC<ChatbotInputProps> = ({
   const [showEmojis, setShowEmojis] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
-
+// chatbot
   const emojis = ['😊', '😂', '❤️', '👍', '👎', '😢', '😮', '😡', '🎉', '🔥', '💯', '✨'];
 
   useEffect(() => {
