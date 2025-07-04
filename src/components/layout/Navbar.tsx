@@ -3,14 +3,13 @@ import { motion } from 'framer-motion';
 import { Menu, X, User, LogOut } from 'lucide-react';
 import { ThemeToggle } from '../ui/ThemeToggle';
 import { useAuth } from '../../hooks/useAuth';
-
+// Navbar
 const navigation = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
   { name: 'Projects', href: '#projects' },
   { name: 'Team', href: '#team' },
-  { name: 'Chat', href: '#chat' },
   { name: 'Chatbot', href: '#chatbot-demo' },
   { name: 'Contact', href: '#contact' },
 ];

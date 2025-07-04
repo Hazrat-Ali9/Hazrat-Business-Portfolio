@@ -13,7 +13,6 @@ import { Projects } from './components/sections/Projects';
 import { Team } from './components/sections/Team';
 import { Auth } from './components/sections/Auth';
 import { Contact } from './components/sections/Contact';
-import { Chat } from './components/sections/Chat';
 import { ChatbotDemo } from './components/sections/ChatbotDemo';
 import { ProjectDetail } from './components/projects/ProjectDetail';
 
@@ -24,7 +23,6 @@ const HomePage = () => (
     <Services />
     <Projects />
     <Team />
-    <Chat />
     <ChatbotDemo />
     <Auth />
     <Contact />

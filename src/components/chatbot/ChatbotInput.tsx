@@ -10,7 +10,7 @@ import {
   FileText,
   Camera
 } from 'lucide-react';
-// chat bot input tsx 
+
 interface ChatbotInputProps {
   onSendMessage: (message: string) => void;
   onFileUpload?: (file: File) => void;

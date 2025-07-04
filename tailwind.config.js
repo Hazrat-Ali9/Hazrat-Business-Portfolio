@@ -68,4 +68,3 @@ export default {
   },
   plugins: [],
 };
-// Tailwind Config
