@@ -4,7 +4,7 @@ import { ChatbotMessage, ChatbotMessageData } from './ChatbotMessage';
 import { ChatbotInput } from './ChatbotInput';
 import { TypingIndicator } from './TypingIndicator';
 import { Bot, Minimize2, Maximize2, X, RotateCcw } from 'lucide-react';
-
+// Chatbot interface
 export const ChatbotInterface: React.FC = () => {
   const [messages, setMessages] = useState<ChatbotMessageData[]>([]);
   const [isTyping, setIsTyping] = useState(false);
