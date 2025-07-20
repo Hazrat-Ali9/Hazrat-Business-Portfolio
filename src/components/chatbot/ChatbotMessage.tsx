@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Bot, User, Check, CheckCheck, Clock } from 'lucide-react';
-
+// Chatbot message 
 export interface ChatbotMessageData {
   id: string;
   text: string;
