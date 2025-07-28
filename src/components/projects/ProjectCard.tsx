@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github, ArrowRight, Calendar, Users } from 'lucide-react';
 import { ProjectData } from '../../data/projects';
 import { Link } from 'react-router-dom';
-
+// Project card
 interface ProjectCardProps {
   project: ProjectData;
   index: number;
