@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 import { projectsData, ProjectData } from '../../data/projects';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
-
+// project details
 export const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
